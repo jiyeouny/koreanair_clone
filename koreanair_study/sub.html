@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>기내 및 클래스별 서비스</title>
+    <link rel="shortcut icon" href="./img/favicon.ico">
+    <link rel="stylesheet" href="./css/sub_style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1 class="logo">
+                <a href="./index.html"><img src="./img/logo.png" alt="대한항공"></a>
+            </h1>
+            <div class="top_navi">
+                <div class="language">
+                    <button>지역/언어</button>
+                    <span> 대한민국 | <span class="underline">한국어</span></span>
+                    <button>English</button>
+                </div>
+                <div class="member">
+                    <ul class="member-list">
+                        <li><a href="#">로그인</a></li>
+                        <li><a href="#">회원가입</a></li>
+                        <li><a href="#">나의 예약</a></li>
+                        <li><a href="#">위시리스트</a></li>
+                    </ul>
+                    <form action="" class="search-form">
+                        <fieldset>
+                            <legend>검색 폼</legend>
+                                <label class="a11y-hidden" for="search">검색</label>
+                                <input type="text" id="search" placeholder="검색">
+                                <button class="search-btn">검색</button>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+            <ul class="menu-list">
+                <li class="menu-item">
+                    <a href="#"><span class="icon"></span> 항공권 예매</a>
+                    <div class="submenu-box submenu-act">
+                        <ul class="submenu">
+                            <li><a href="#">항공권 예매</a></li>
+                            <li><a href="#">일반 예매</a></li>
+                            <li><a href="#">조회/변경/환불</a></li>
+                        </ul>
+                        <ul class="submenu">
+                            <li><a href="#">보너스 항공권 예매</a></li>
+                            <li><a href="#">보너스 예매</a></li>
+                            <li><a href="#">조회/변경/환불</a></li>
+                            <li><a href="#">보너스 좌석 상황 보기</a></li>
+                            <li><a href="#">보너스 알리미</a></li>
+                        </ul>
+                        <ul class="submenu">
+                            <li><a href="#">항공권 선물하기</a></li>
+                            <li><a href="#">국내선 선물하기</a></li>
+                            <li><a href="#">국제선 선물하기</a></li>
+                        </ul>
+                        <ul class="submenu">
+                            <li><a href="#">항공편 조회</a></li>
+                            <li><a href="#">출도착 조회</a></li>
+                            <li><a href="#">스케줄 조회</a></li>
+                            <li><a href="#"></a></li>
+                            <li class="point-color"><a href="#">운항 노선도</a></li>
+                        </ul>
+                        <ul class="submenu">
+                            <li><a href="#">이용 안내</a></li>
+                            <li><a href="#">항공권 변경 및 환불 안내</a></li>
+                            <li><a href="#">국내선 운임 안내</a></li>
+                            <li><a href="#">환승전용내항기 예매</a></li>
+                            <li><a href="#">스카이팀 세계일주 운임</a></li>
+                            <li><a href="#">공동운항 항공사</a></li>
+                            <li><a href="#">구매 가이드</a></li>
+                        </ul>
+                        <button class="btn-close">닫기</button>
+                    </div>
+                </li>
+                <li class="menu-item">
+                    <a href="#"><span class="icon"></span> 스카이패스</a>
+                    <div class="submenu-box">
+                        <ul class="submenu">
+                            <li><a href="#">회원 혜택</a></li>
+                            <li><a href="#">스카이패스 회원 혜택 </a></li>
+                            <li><a href="#">스카이팀 공동 혜택</a></li>
+                            <li><a href="#">가족 마일리지 제도</a></li>
+                            <li><a href="#">제휴사 할인 혜택</a></li>
+                            <li><a href="#">상용기업우대제도</a></li>
+                        </ul>
+                        <ul class="submenu">
+                            <li><a href="#">마일리지 적립</a></li>
+                            <li><a href="#">대한항공</a></li>
+                            <li><a href="#">신용카드</a></li>
+                            <li><a href="#">제휴 항공사</a></li>
+                            <li><a href="#">호텔</a></li>
+                            <li><a href="#">렌터카</a></li>
+                            <li><a href="#">기타 제휴사</a></li>
+                            <li><a href="#">마일리지 사후 적립 신청</a></li>
+                        </ul>
+                        <ul class="submenu">
+                            <li><a href="#">항공 보너스 사용</a></li>
+                            <li><a href="#">보너스 항공권</a></li>
+                            <li><a href="#">좌석승급 보너스</a></li>
+                            <li><a href="#">세계일주 보너스</a></li>
+                            <li><a href="#">KAL 라운지 보너스</a></li>
+                            <li><a href="#">초과 수화물 보너스</a></li>
+                        </ul>
+                        <ul class="submenu">
+                            <li><a href="#">비항공 보너스 사용</a></li>
+                            <li><a href="#">로고 상품</a></li>
+                            <li><a href="#">코트룸 보너스</a></li>
+                            <li><a href="#">마일로 호텔로</a></li>
+                            <li><a href="#">마일로 렌터카</a></li>
+                            <li><a href="#">마일로 리무진</a></li>
+                            <li><a href="#">마일리지 투어</a></li>
+                            <li><a href="#">문화 체험 상품</a></li>
+                        </ul>
+                        <button class="btn-close">닫기</button>
+                    </div>
+                </li>
+                <li class="menu-item">
+                    <a href="#"><span class="icon"></span>서비스 안내</a>
+                    <div class="submenu-box">
+                        <ul class="submenu">
+                            <li><a href="#">탑승수속</a></li>
+                            <li><a href="#">탑승수속</a></li>
+                            <li><a href="#">연결 탑승수속</a></li>
+                            <li><a href="#">사전 좌석배정</a></li>
+                            <li><a href="#">키오스크</a></li>
+                            <li><a href="#">모바일/웹 체크인</a></li>
+                            <li><a href="#">출입국 규정 조회</a></li>
+                            <li><a href="#"></a></li>
+                            <li class="point-color"><a href="#">항공기 안내</a></li>
+                        </ul>
+                        <ul class="submenu">
+                            <li><a href="#">수화물</a></li>
+                            <li><a href="#">운송 가능 수화물</a></li>
+                            <li><a href="#">운송 제한 품목</a></li>
+                            <li><a href="#">수화물 연결 수속</a></li>
+                            <li><a href="#">분실/지연/파손</a></li>
+                            <li><a href="#">기내 유실물 찾기</a></li>
+                            <li><a href="#">수화물 준비방법</a></li>
+                            <li><a href="#"></a></li>
+                            <li class="point-color"><a href="#">기내면세품</a></li>
+                        </ul>
+                        <ul class="submenu">
+                            <li><a href="#">도움이 필요한 고객</a></li>
+                            <li><a href="#">한가족 서비스</a></li>
+                            <li><a href="#">비동산 소아 서비스</a></li>
+                            <li><a href="#">몸이 불편하신 고객</a></li>
+                            <li><a href="#">임산부 고객</a></li>
+                            <li><a href="#">유아동반 고객</a></li>
+                            <li><a href="#">반려동물과 여행하기</a></li>
+                            <li><a href="#"></a></li>
+                            <li class="point-color"><a href="#">코트룸 서비스</a></li>
+                        </ul>
+                        <ul class="submenu">
+                            <li><a href="#">공항 및 환승 정보</a></li>
+                            <li><a href="#">인천공항</a></li>
+                            <li><a href="#">도심공항</a></li>
+                            <li><a href="#">취항지 공항정보</a></li>
+                            <li><a href="#">KAL 라운지</a></li>
+                            <li><a href="#">KAL 리무진</a></li>
+                            <li><a href="#">Rail &amp; Fly</a></li>
+                            <li><a href="#">SkyPriority</a></li>
+                        </ul>
+                        <ul class="submenu">
+                            <li><a href="./sub.html">기내 및 클래스별 서비스</a></li>
+                            <li><a href="./sub.html">일등석</a></li>
+                            <li><a href="./sub.html">프레스티지석</a></li>
+                            <li><a href="./sub.html">일반석</a></li>
+                            <li><a href="./sub.html">기내 서비스 순서</a></li>
+                            <li><a href="./sub.html">기내 오락</a></li>
+                            <li><a href="./sub.html">기내식 및 특별기내식</a></li>
+                            <li><a href="./sub.html">기내 여행 가이드</a></li>
+                        </ul>
+                        <button class="btn-close">닫기</button>
+                    </div>
+                </li>
+                <li class="menu-item">
+                    <a href="#"><span class="icon"></span>프로모션/여행상품</a>
+                    <div class="submenu-box">
+                        <ul class="submenu">
+                            <li><a href="#">이벤트</a></li>
+                            <li class="point-color"><a href="#">특가 항공권</a></li>
+                        </ul>
+                        <ul class="submenu">
+                            <li><a href="#">엑셀런트 보딩패스</a></li>
+                            <li class="point-color"><a href="#">엑설런트 트랜짓 프로그램</a></li>
+                        </ul>
+                        <ul class="submenu">
+                            <li><a href="#">전용기 서비스</a></li>
+                            <li><a href="#">서비스 개요</a></li>
+                            <li><a href="#">상품 안내</a></li>
+                        </ul>
+                        <ul class="submenu">
+                            <li><a href="#">여행상품</a></li>
+                            <li><a href="#">해외여행상품</a></li>
+                            <li><a href="#">호텔</a></li>
+                            <li><a href="#">렌터카</a></li>
+                            <li><a href="#">해외여행자 보험</a></li>
+                            <li><a href="#">플라이트 아카데미</a></li>
+                            <li><a href="#">여행정보사이트</a></li>
+                        </ul>
+                        <button class="btn-close">닫기</button>
+                    </div>
+                </li>
+            </ul>
+        </header>
+        <main class="main">
+            <section class="section1">
+                <div class="overlay">
+                    <div class="class-service">
+                        <h2>기내 및 클래스별 서비스</h2>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section2">
+                <div class="overlay">
+                    <div class="first-class">
+                        <h2>일등석</h2>
+                        <div class="seat-txt">
+                            <p>여행을 계획하는 첫 순간부터 여행을 마치는 마지막 순간까지 품격 있는 서비스로 모십니다.</p>
+                        </div>
+                        <div class="seat-cont">
+                            <h3>일등석 좌석</h3>
+                            <div class="seat-info">
+                                <div class="first-seat1">
+                                    <img src="./img/first-seat01.jpg" alt="코스모 스위트 2.0">
+                                    <h4>코스모 스위트 2.0</h4>
+                                    <p><a href="#">자세히 보기</a></p>
+                                </div>
+                                <div class="first-seat2">
+                                    <img src="./img/first-seat02.jpg" alt="코스모 스위트">
+                                    <h4>코스모 스위트</h4>
+                                    <p><a href="#">자세히 보기</a></p>
+                                </div>
+                                <div class="first-seat3">
+                                    <img src="./img/first-seat03.jpg" alt="코스모 슬리퍼">
+                                    <h4>코스모 슬리퍼</h4>
+                                    <p><a href="#">자세히 보기</a></p>
+                                </div>
+                                <div class="first-seat4">
+                                    <img src="./img/first-seat04.jpg" alt="슬리퍼">
+                                    <h4>슬리퍼</h4>
+                                    <p><a href="#">자세히 보기</a></p>
+                                </div>
+                            </div>
+                            <p class="class-notice">여행노선 및 시간대, 기종에 따라 좌석 타입 및 사이즈, 이용 가능한 기능 및 서비스에 차이가 있을 수 있습니다.</p>
+                        </div>
+                        <div class="service-cont">
+                            <h3>일등석 서비스</h3>
+                            <div class="service-info">
+                                <div class="service-info1">
+                                    <img src="./img/first-service01.jpg" alt="일등석 기내 서비스">
+                                    <p><a href="#">일등석 기내 서비스</a></p>
+                                </div>
+                                <div class="service-info2">
+                                    <img src="./img/first-service02.jpg" alt="일등석 지상 서비스">
+                                    <p><a href="#">일등석 지상 서비스</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section3">
+                <div class="overlay">
+                    <div class="prestige-class">
+                        <h2>프레스티지석</h2>
+                        <div class="seat-txt">
+                            <p>여행을 계획하는 첫 순간부터 여행을 마치는 마지막 순간까지 품격 있는 서비스로 모십니다.</p>
+                        </div>
+                        <div class="seat-cont">
+                            <h3>프레스티지석 좌석</h3>
+                            <div class="seat-info">
+                                <div class="prestige-seat1">
+                                    <img src="./img/prestige-seat01.jpg" alt="프레스티지 스위트">
+                                    <h4>프레스티지 스위트</h4>
+                                    <p><a href="#">자세히 보기</a></p>
+                                </div>
+                                <div class="prestige-seat2">
+                                    <img src="./img/prestige-seat02.jpg" alt="프레스티지 슬리퍼 시트">
+                                    <h4>프레스티지 슬리퍼 시트</h4>
+                                    <p><a href="#">자세히 보기</a></p>
+                                </div>
+                                <div class="prestige-seat3">
+                                    <img src="./img/prestige-seat03.jpg" alt="프레스티지 플러스 시트">
+                                    <h4>프레스티지 플러스 시트</h4>
+                                    <p><a href="#">자세히 보기</a></p>
+                                </div>
+                                <div class="prestige-seat4">
+                                    <img src="./img/prestige-seat04.jpg" alt="B737용 프레스티지 시트">
+                                    <h4>B737용 프레스티지 시트</h4>
+                                    <p><a href="#">자세히 보기</a></p>
+                                </div>
+                            </div>
+                            <p class="class-notice">여행노선 및 시간대, 기종에 따라 좌석 타입 및 사이즈, 이용 가능한 기능 및 서비스에 차이가 있을 수 있습니다.</p>
+                        </div>
+                        <div class="service-cont">
+                            <h3>프레스티지석 서비스</h3>
+                            <div class="service-info">
+                                <div class="service-info1">
+                                    <img src="./img/prestige-service01.jpg" alt="프레스티지석 기내 서비스">
+                                    <p><a href="#">프레스티지석 기내 서비스</a></p>
+                                </div>
+                                <div class="service-info2">
+                                    <img src="./img/prestige-service02.jpg" alt="프레스티지석 지상 서비스">
+                                    <p><a href="#">프레스티지석 지상 서비스</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section4">
+                <div class="overlay">
+                    <div class="economy-class">
+                        <h2>일반석</h2>
+                        <div class="seat-txt">
+                            <p>여행을 계획하는 첫 순간부터 여행을 마치는 마지막 순간까지 품격 있는 서비스로 모십니다.</p>
+                        </div>
+                        <div class="seat-cont">
+                            <h3>일반석 좌석</h3>
+                            <div class="seat-info">
+                                <div class="economy-seat1">
+                                    <img src="./img/economy-seat01.jpg" alt="뉴 이코노미">
+                                    <h4>뉴 이코노미</h4>
+                                    <p><a href="#">자세히 보기</a></p>
+                                </div>
+                                <div class="economy-seat2">
+                                    <img src="./img/economy-seat02.jpg" alt="이코노미">
+                                    <h4>이코노미</h4>
+                                    <p><a href="#">자세히 보기</a></p>
+                                </div>
+                            </div>
+                            <p class="class-notice">여행노선 및 시간대, 기종에 따라 좌석 타입 및 사이즈, 이용 가능한 기능 및 서비스에 차이가 있을 수 있습니다.</p>
+                        </div>
+                        <div class="service-cont">
+                            <h3>일반석 서비스</h3>
+                            <div class="service-info">
+                                <div class="service-info1">
+                                    <img src="./img/economy-service01.jpg" alt="일반석 기내 서비스">
+                                    <p><a href="#">일반석 기내 서비스</a></p>
+                                </div>
+                                <div class="service-info2">
+                                    <img src="./img/prestige-service02.jpg" alt="일반석 지상 서비스">
+                                    <p><a href="#">일반석 지상 서비스</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section5">
+                <div class="overlay">
+                    <div class="service-order">
+                        <h2>기내 서비스 순서</h2>
+                        <div class="service-order-cont">
+                            <img src="./img/sevice-order.jpg" alt="기내 서비스 순서">
+                            <div class="service-order-txt">
+                                <p>대한항공에서 준비한 기내 서비스 순서를 확인하실 수 있습니다.</p>
+
+                                <ul class="service-order-list">
+                                    <li><a href="#">한국 출발편</a></li>
+                                    <li><a href="#">해외 출발편</a></li>
+                                </ul>
+                                <ul class="service-order-notice-list">
+                                    <li>개인용 모니터로 영화와 단편물, 음악, 게임을 선택해 즐기실 수 있습니다. <br>
+                                    <span></span> (단, 기종에 따라 서비스가 제한될 수 있습니다.)</li>
+                                    <li>기종, 운항 시간 및 상황에 따라 서비스 순서 / 시간에 변동이 있을 수 있습니다.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section6">
+                <div class="overlay">
+                    <div class="entertainment">
+                        <h2>기내 오락</h2>
+                        <div class="entertainment-cont">
+                            <h3>MorningCalm</h3>
+                            <div class="morningcalm-cont">
+                                <img src="./img/morning-calm01.jpg" alt="MorningCalm">
+                                <div class="morningcalm-txt">
+                                    <p>&lt;MorningCalm&gt;은 오랜 역사를 자랑하는 대한항공의 공식 기내지로, 흥미로운 사진과 유익한 정보가 가득한 고품격 여행 문화지입니다. 한국과 세계의 문화를 잇는 가교로서, 한국의 고유한 아름다움을 세계에 알리고, 해외의 잘 알려지지 않은 여행지를 깊이 있게 소개합니다.</p>
+                                    <a href="#">MornimgCalm e-book 보기</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="entertainment-cont">
+                            <h3>기내오락</h3>
+                            <div class="entertainment-txt-box">
+                                <div class="entertainment-txt">
+                                    <p>할리우드 흥행작을 비롯한 한국, 유럽, 아시아 등의 다양한 영화와 다큐멘터리, 드라마, 스포츠 등 다채로운 영상물과 음악이 준비되어 있습니다. 하늘에서 만나는 새로운 엔터테인먼트 세상으로 여러분을 초대합니다.</p>
+                                    <p>&lt;beyond&gt;는 대한항공에서 제공하는 기내 엔터테인먼트 프로그램을 자세하게 안내해 드립니다. 또한, 영화, 음악, 게임, 스포츠 등 대중문화부터 클래식, 미술, 문학 등 예술문화까지 그 경계를 자유롭게 넘나드는 읽을거리를 제공합니다.
+                                    </p>
+                                    <a class="beyond-more" href="#">beyond e-Book 보기</a>
+                                    <ul class="entertainment-list1">
+                                        <li>
+                                            <span class="entertainment-icon"></span><a href="#">영화/단편물 목록 (다운로드<span class="icon-pdf"></span>)</a>
+                                        </li>
+                                        <li>
+                                            <span class="entertainment-icon"></span><a href="#">음악 목록 (다운로드<span class="icon-pdf"></span>)</a>
+                                        </li>
+                                        <li>
+                                            <span class="entertainment-icon"></span><a href="#">신작 목록</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="entertainment-txt">
+                                    <ul class="entertainment-list2">
+                                        <li>
+                                        <strong>스카이 프로그램</strong>
+                                        <p>개인용 모니터로 제공되는 주문형 프로그램입니다. 리모컨 또는 터치 스크린을 이용해 원하는 영화와 영상물, 음악을 선택해 즐길 수 있습니다.</p>
+                                        </li>
+                                        <li>
+                                        <strong>레드 프로그램</strong>
+                                        <p>메인 스크린으로 제공되는 프로그램입니다. 탑승 노선에 따라 영화와 영상물, 음악을 즐길 수 있습니다.</p>
+                                        </li>
+                                        <li>
+                                        <strong>기내 무선 AVOD 서비스</strong>
+                                        <p>A220-300 항공기를 탑승하는 고객에게 제공되는 서비스입니다. 개인 휴대 기기로 기내 와이파이에 접속하여 다양한 기내 엔터테인먼트를 무료로 이용하실 수 있습니다.</p>
+                                        </li>
+                                    </ul>
+                                    <a class="avod-more" href="#">기내 무선 AVOD 서비스 자세히 보기</a>
+                                    <p class="entertainment-notice">
+                                        기내오락 프로그램은 부득이한 사정에 의해 사전 공지없이 변경될 수 있습니다.
+                                    </p>
+                                </div>
+                            </div>        
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section7">
+                <div class="overlay">
+                    <div class="meal">
+                        <h2>기내식 및 특별기내식</h2>
+                        <div class="first-meal">
+                            <h3>일등석</h3>
+                            <div class="meal-cont-box">
+                                <div class="meal-info1">
+                                    <p>여행지의 특성에 맞추어 제철 웰빙 식재료로 정성스럽게 준비한 기내식과 엄선된 특급 와인을 서비스합니다. 대한항공은 기내식 최고의 영예인 ‘머큐리상’을 수상했습니다.</p>
+                                    <img src="./img/special-meal01.jpg" alt="일등석 식사">
+                                </div>
+                                <div class="meal-info2">
+                                    <ul class="meal-info-list">
+                                        <li>
+                                            <strong>청정 기내식 서비스 - 'From Farm to Fly'</strong>
+                                            <p>청정 지역인 제주 한라산에 위치한 제동 목장에서 사육한 제동한우와 제동토종닭을 사용한 '제동 등심구이', '제동갈비', '제동 닭요리', '제동 삼계백숙' 등 친환경 웰빙 메뉴를 제공하고 있습니다.
+                                            <br><br>
+                                            또한 재배 전 과정을 엄격하게 관리해 생산한 파프리카, 체리 토마토 등 무공해 농산물을 기내식에 사용합니다.</p>
+                                        </li>
+                                        <li>
+                                            <strong>명품 한식 서비스</strong>
+                                            <p>비빔밥, 영양밥, 동치미국수 등 전통 한식과 정통 한정식의 풍미를 그대로 담고 있으면서도 세계인의 입맛에 맞게 고급화한 한식정찬 서비스를 제공하고 있습니다.
+                                            <br><br>
+                                            한식정찬은 전채와 주요리, 반찬 및 후식 등이 코스별로 제공되어, 입맛을 북돋우고 균형 잡힌 식사로 손색이 없습니다.</p>
+                                        </li>
+                                        <li>
+                                            <strong>특급 와인과 샴페인 서비스</strong>
+                                            <p>
+                                                프랑스 보르도, 부르고뉴, 알자스 지역의 특급 와인을 기본으로 서비스하며, 취항지에 따라 캘리포니아, 이탈리아, 독일 와인을 함께 서비스하고 있습니다. 특히, 보르도 특급 와인의 경우 기내 서비스 3~4년 전에 미리 선점하여 고객들에게 최고의 와인을 선보이고 있습니다.
+                                                <br><br>
+                                                샴페인은 프랑스 샹파뉴 지역의 최고급 샴페인이며 200년 이상의 전통을 지닌 페리에 주에를 제공해 드리고 있습니다.
+                                            </p>
+                                        </li>
+                                    </ul>
+                                    <p class="meal-notice">
+                                        여행노선 및 시간대, 계절 및 기종에 따라 이용 가능한 서비스에 차이가 있을 수 있습니다.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="prestige-meal">
+                            <h3>프레스티지석</h3>
+                            <div class="meal-cont-box">
+                                <div class="meal-info1">
+                                    <img src="./img/prestige-meal.jpg" alt="프레스티지석 식사">
+                                </div>
+                                <div class="meal-info2">
+                                    <p>신선한 웰빙 식재를 사용해 최고의 요리사가 만드는 특별한 기내식과 프리미엄 와인을 제공합니다.</p>
+                                    <ul class="meal-info-list">
+                                        <li>
+                                            <strong>명품 한식 서비스</strong>
+                                            <p>비빔밥, 동치미국수, 게장덮밥, 갈비찜, 불고기 덮밥 등 대한항공에서만 맛볼 수 있는 다양한 한식 메뉴를 고급스러운 한식 기물에 담아 서비스 합니다.</p>
+                                        </li>
+                                        <li>
+                                            <strong>프리미엄 와인과 샴페인 서비스</strong>
+                                            <p>프랑스 보르도, 론, 알자스 지역의 프리미엄 와인을 기본으로 서비스하며, 취항지에 따라 캘리포니아, 이탈리아, 독일, 캐나다, 호주, 뉴질랜드, 칠레 와인을 함께 서비스하고 있습니다.
+                                            <br><br>
+                                            또한, 프랑스 샹파뉴 지역의 최고급 샴페인이며 200년 이상의 전통을 지닌 페리에 주에를 제공하고 있습니다.</p>
+                                        </li>
+                                    </ul>
+                                    <p class="meal-notice">
+                                        여행노선 및 시간대, 계절 및 기종에 따라 이용 가능한 서비스에 차이가 있을 수 있습니다.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="economy-meal">
+                            <h3>일반석</h3>
+                            <div class="meal-cont-box">
+                                <div class="meal-info1">
+                                    <p>계절에 따라 제철 식재를 사용한 다양한 메뉴의 기내식과 엄선된 와인을 제공하고 있습니다.</p>
+                                    <img src="./img/economy-meal.jpg" alt="일반석 식사">
+                                </div>
+                                <div class="meal-info2">
+                                    <ul class="meal-info-list">
+                                        <li>
+                                            <strong>전통 한식을 비롯한 다양한 메뉴 서비스</strong>
+                                            <p>비빔밥, 비빔국수, 곤드레밥, 버섯밥, 낙지덮밥 등 다양한 한식을 기본으로 제공하고 있으며, 여행 목적지를 감안해 양식, 중식, 일식 등도 함께 서비스하고 있습니다.</p>
+                                        </li>
+                                        <li>
+                                            <strong>다양한 스낵 서비스</strong>
+                                            <p>장거리 여행하는 승객을 위해 삼각김밥, 컵라면, 피자, 막걸리쌀빵을 비롯한 다양한 스낵류를 제공합니다.</p>
+                                        </li>
+                                        <li>
+                                            <strong>엄선된 와인 서비스</strong>
+                                            <p>
+                                                풍부한 향과 부드러운 맛으로 기내에서 즐기기 적합한 프랑스, 칠레, 호주의 우수 와인을 엄선해 제공합니다.
+                                            </p>
+                                        </li>
+                                    </ul>
+                                    <p class="meal-notice">
+                                        여행노선 및 시간대, 계절 및 기종에 따라 이용 가능한 서비스에 차이가 있을 수 있습니다.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="special-meal">
+                            <h3>특별 기내식</h3>
+                            <div class="meal-cont-box">
+                                <div class="meal-info1">
+                                    <img src="./img/special-meal02.jpg" alt="특별식 식사">
+                                </div>
+                                <div class="meal-info2">
+                                    <p>
+                                        대한항공에서는 건강(각종 질병 및 특정 식품에 대한 알레르기 등), 종교, 연령 등의 이유로 정규 기내식을 드시지 못하는 승객을 위해, 요청에 따라 다양한 특별 기내식을 제공하고 있습니다.</p>
+                                    <ul class="meal-info-list">
+                                        <li>
+                                            <a href="#">유아식 및 아동식</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">야채식</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">식사조절식</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">종교식</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">기타 특별식</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">땅콩 알레르기</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="howtouse">
+                                <span class="howtouwe-title">이용 방법</span>
+                                <ul class="howtouse-list">
+                                    <li>항공기 출발 24시간 전까지 <a href="#">서비스센터</a> 로 전화 요청 또는 홈페이지 "<a href="#">나의 예약</a>" 을 통해 직접 주문할 수 있습니다.</li>
+                                    <li>공동 운항편(Code Share)의 경우, 항공기 출발 48시간 전까지 주문이 완료되어야 합니다. 단, 특별 기내식 종류에 따라 일부 제한이 있거나 추가적인 준비 <br>기간이 필요할 수 있습니다. 자세한 사항은 해당 항공사에 문의하시기 바랍니다.</li>
+                                    <li>해외 출발편의 경우, 기내식 공급업체의 사정에 따라 일부 제한이 있거나 대체될 수 있습니다.</li>
+                                    <li>단거리 노선에 한해 일부 특별 기내식 신청이 제한될 수 있음을 참고하시기 바랍니다.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section8">
+                <div class="overlay">
+                    <div class="guide">
+                        <h2>기내 여행 가이드</h2>
+                        <div class="guide-cont">
+                            <img src="./img/guide.jpg" alt="기내 여행 가이드">
+                            <div class="guide-txt">
+                                <p>기내의 환경은 지상에서 생활하는 환경과는 차이가 있습니다. 기내 환경을 이해하시면 보다 즐겁고 편안한 항공여행을 하실 수 있습니다.</p>
+                                <ul class="guide-list">
+                                    <li><a href="#">기내 환경 안내</a></li>
+                                    <li><a href="#">건강한 항공여행을 위한 주의사항</a></li>
+                                    <li><a href="#">건강한 여행 준비</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+        <div class="footer-bg">
+            <footer class="footer">
+                <ul class="footer-list">
+                    <li>
+                        <a href="#">회사소개</a>
+                        <ul class="footer-list-sub">
+                            <li><a href="#">대한항공에 대하여</a></li>
+                            <li><a href="#">기업지배구조</a></li>
+                            <li><a href="#">투자정보</a></li>
+                            <li><a href="#">지속가능경영</a></li>
+                            <li><a href="#">뉴스룸</a></li>
+                            <li><a href="#">공지사항</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">약관 및 규정</a>
+                        <ul class="footer-list-sub">
+                            <li><a href="#">개인정보처리방침</a></li>
+                            <li><a href="#">회원약관</a></li>
+                            <li><a href="#">운송약관</a></li>
+                            <li><a href="#">소비자 안전 관련 정보 공개</a></li>
+                            <li><a href="#">운임 및 서비스 요금표</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">기타안내</a>
+                        <ul class="footer-list-sub">
+                            <li><a href="#">고객 안내 서비스</a></li>
+                            <li><a href="#">항공교통이용자 서비스 계획</a></li>
+                            <li><a href="#">항공교통이용자 피해구제</a></li>
+                            <li><a href="#">관련 사이트</a></li>
+                            <li><a href="#">사이트맵</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">고객지원</a>
+                        <ul class="footer-list-sub">
+                            <li><a href="#">지점 연락처</a></li>
+                            <li><a href="#">고객의 말씀</a></li>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">e 서식함</a></li>
+                            <li><a href="#">채팅 서비스</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <div class="footer-bottom">
+                    <address class="address">
+                        <span>(주) 대한항공</span> | <span>대표이사 : 우기홍 외 1명</span> | <span>주소 : 서울특별시 강서구 하늘길 260</span> | <span>대표전화 : 1588-2001 / 02-2656-2001</span> <br>
+                        <span>사업자 등록번호 : 110-81-14794</span> | <span>통신판매업신고 : 강서 제 16-3010</span> | <span>개인정보보호책임자 : 여객사업본부장 이진호 전무</span> <br>
+                        &copy;1997-2020 KOREAN AIR
+                    </address>
+                    <ul class="sns-list">
+                        <li><a href="#"><img src="./img/icon-fb.png" alt="페이스북"></a></li>
+                        <li><a href="#"><img src="./img/icon-tw.png" alt="트위터"></a></li>
+                        <li><a href="#"><img src="./img/icon-inst.png" alt="인스터"></a></li>
+                        <li><a href="#"><img src="./img/icon-youtube.png" alt="유튜브"></a></li>
+                        <li><a href="#"><img src="./img/icon-blog.png" alt="네이버 블로그"></a></li>
+                    </ul>
+                </div>
+            </footer>
+        </div>
+    </div>
+    <ul class="shortcut-list">
+        <li><a href="#">목록 보기</a></li>
+        <li><a href="#">일등석</a></li>
+        <li><a href="#">프레스티지석</a></li>
+        <li><a href="#">일반석</a></li>
+        <li><a href="#">기내 서비스 순서</a></li>
+        <li><a href="#">기내 오락</a></li>
+        <li><a href="#">기내식 및 특별기내식</a></li>
+        <li><a href="#">기내 여행 가이드</a></li>
+    </ul>
+</body>
+</html>
